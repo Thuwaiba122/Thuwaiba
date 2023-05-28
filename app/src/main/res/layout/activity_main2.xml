@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="373dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="449dp"
+        android:text="What kind of shoes do you want?"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_marginBottom="358dp"
+        android:text="the first kind" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_marginBottom="263dp"
+        android:text="the second kind" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="406dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_marginBottom="168dp"
+        android:text="the third kind" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="161dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="222dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="62dp"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:text="go to the next page" />
+
+
+
+</RelativeLayout>

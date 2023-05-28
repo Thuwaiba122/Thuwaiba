@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-68dp"
+        android:layout_marginBottom="33dp"
+        android:text="Wearing appropriate and comfortable walking shoes can help prevent foot problems (such as: blisters and calluses); A walking shoe should be relatively lightweight and provide good shock absorption (when the foot hits the ground)."
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="174dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:text="Next"
+        android:textSize="20dp" />
+</RelativeLayout>
